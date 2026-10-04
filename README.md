@@ -10,7 +10,7 @@ Build a data warehouse form scratch using Medallion structure ( Bronze Layer, Si
 
 An end-to-end data warehouse built from scratch in **SQL Server**, integrating two operational source systems (**CRM** and **ERP**) into a single, analytics-ready **star schema**. The pipeline follows the **Medallion Architecture** (Bronze → Silver → Gold), with stored-procedure-based ETL, embedded data-quality rules, validation test suites, and a business-facing data catalog.
 
-> **Business problem:** Customer, product, and sales data live in two disconnected systems with inconsistent keys, codes, and formats. Analysts cannot answer simple questions — *"Who are our top customers by country?"*, *"Which product lines drive revenue?"* — without manual reconciliation.
+> **Business problem:** Customer, product, and sales data live in two disconnected systems with inconsistent keys, codes, and formats. Analysts cannot answer simple questions, such as *"Who are our top customers by country?"*, *"Which product lines drive revenue?"* without manual reconciliation.
 > **Solution:** A layered warehouse that ingests, cleans, integrates, and models this data into a single source of truth for BI and ad-hoc SQL.
 
 ---
