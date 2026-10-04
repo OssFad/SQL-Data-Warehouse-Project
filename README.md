@@ -223,7 +223,7 @@ SQL-Data-Warehouse-Project/
 **Ossama Fadloullah** — Data Analyst / Data Scientist · Morocco
 Python · SQL · Power BI · Analytics Engineering
 
-[LinkedIn](https://www.linkedin.com/in/your-profile) · [GitHub](https://github.com/OssFad)
+[LinkedIn](www.linkedin.com/in/ossama-fadloullah) · [GitHub](https://github.com/OssFad)
 
 ---
 
