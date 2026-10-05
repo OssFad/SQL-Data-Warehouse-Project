@@ -204,28 +204,7 @@ SQL-Data-Warehouse-Project/
 | **SCD Type 1 (current state only)** in `dim_products` | Reporting scope targets current catalog | Historical product attributes are not available for point-in-time analysis |
 | **CRM as master** for customer gender | CRM is the system of record; ERP used only as fallback | Requires business sign-off in a real engagement |
 
----
 
-## Roadmap
-
-- [ ] Parameterize file paths (or move ingestion to SSIS / Python) to remove machine-specific configuration
-- [ ] Add a load-audit table (run ID, row counts, duration, status) instead of `PRINT` logging
-- [ ] Add `dwh_load_date` metadata columns to Silver tables
-- [ ] Implement incremental loading for `sales_details`
-- [ ] Materialize Gold as tables with indexes and persist SCD Type 2 history for products
-- [ ] Automate tests (tSQLt or a Python runner) and orchestrate the pipeline
-- [ ] Build a Power BI report on top of the Gold layer
-
----
-
-## Author
-
-**Ossama Fadloullah** — Data Analyst / Data Scientist · Morocco
-Python · SQL · Power BI · Analytics Engineering
-
-[LinkedIn](www.linkedin.com/in/ossama-fadloullah) · [GitHub](https://github.com/OssFad)
-
----
 
 ## License
 
