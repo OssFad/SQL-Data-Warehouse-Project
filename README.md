@@ -33,7 +33,7 @@ An end-to-end data warehouse built from scratch in **SQL Server**, integrating t
 
 ## Architecture
 
-![Data Flow](https://github.com/OssFad/SQL-Data-Warehouse-Project/blob/main/docs/DWH%20Data%20Flow.png)
+![Data Flow](https://github.com/OssFad/SQL-Data-Warehouse-Project/blob/main/docs/DWH%20DATA%20FLOW.png)
 
 ```mermaid
 flowchart LR
