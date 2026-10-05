@@ -26,8 +26,7 @@ An end-to-end data warehouse built from scratch in **SQL Server**, integrating t
 7. [Getting Started](#getting-started)
 8. [Repository Structure](#repository-structure)
 9. [Design Decisions & Trade-offs](#design-decisions--trade-offs)
-10. [Roadmap](#roadmap)
-11. [Author](#author)
+
 
 ---
 
